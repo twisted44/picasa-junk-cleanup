@@ -12,7 +12,7 @@ This script searches for all .picasaoriginal folders and moves them to an archiv
 the user's choice.  This allows Backup and Sync to work normally.
 
 
-## picasa-junk-cleanup 
+## picasa-junk-cleanup.py
 > This is the main script.
 This script will find all .picasaoriginal folders under a given path (start_dir) 
 and move them (including contents) to a new archive location (archive_dir).
@@ -22,25 +22,22 @@ If there is a .picasaini file at the _same_ location, it will also be moved.
 If there are .picasaini files in _other_ locations they will _not_ be moved.
 
 
-### Usage example
-
-picasa-junk-cleanup
+### Usage Examples
+> picasa-junk-cleanup.py
 
 To create a log file, redirect output with 
-picasa-junk-cleanup |& tee -f logfile
+>picasa-junk-cleanup |& tee -f logfile
 
-### picasa-zip-cleanup 
+## picasa-zip-cleanup.py 
 > This is a small utility to cleanup older type archives (picasa.zip).
 This script will find all picasa.zip files and move them to the same archive.
 
 
 ## Meta
-
 Martin Parley – twisted44@yahoo.com
-
+[https://github.com/twisted44] (https://github.com/twisted44/)
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/twisted44] (https://github.com/twisted44/)
 
 
 
